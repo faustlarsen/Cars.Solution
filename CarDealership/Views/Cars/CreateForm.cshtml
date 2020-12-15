@@ -1,11 +1,25 @@
-<form action="/cars" method="post">
-  <input id="makeModel" name="makeModel" placeholder="Enter make, model" type="text" required> 
-  <br>
-  <input id="price" name="price" type="text" placeholder="Enter price" required>
-  <br>
-  <input id="miles" name="miles" type="text" placeholder="Enter miles" required>
-  <br>
-  <button type="submit">Submit</button>
-</form>
-<a href="/">Go home</a>
-<a href='/cars'>List of cars</a>
+
+
+<body>
+
+<img src='~/Content/Images/cars.jpg'/>
+<head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel="stylesheet"  href="~/css/styles.css" type="text/css">
+</head>
+  
+  <div class="forms">
+    <form action="/cars" method="post">
+      <input id="makeModel" class="form-control" name="makeModel" placeholder="Enter make, model" type="text" required> 
+      <br>
+      <input id="price" class="form-control" name="price" type="text" placeholder="Enter price" required>
+      <br>
+      <input id="miles" class="form-control" name="miles" type="text" placeholder="Enter miles" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <a href="/">Go home</a>
+    <a href='/cars'>List of cars</a>
+    
+  </div>
+</body>
